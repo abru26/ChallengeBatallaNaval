@@ -1,0 +1,33 @@
+$black: #000000; // https://chir.ag/projects/name-that-color/#000000
+$white: #ffffff; // https://chir.ag/projects/name-that-color/#FFFFFF
+$mediumRedViolet: #c935b6; // https://chir.ag/projects/name-that-color/#c935b6
+$carrotOrange: #EB8A22; // https://chir.ag/projects/name-that-color/#EB8A22
+$birdFlower: #ddcc16; // https://chir.ag/projects/name-that-color/#ddcc16
+$goldenFizz: #ffee38; // https://chir.ag/projects/name-that-color/#ffee38
+$lemon: #F7E70A; // https://chir.ag/projects/name-that-color/#F7E70A
+$curiousBlue: #1e9aea; // https://chir.ag/projects/name-that-color/#1e9aea
+$cerulean: #02ADF7; // https://chir.ag/projects/name-that-color/#02ADF7
+$malibu: #46d4fe; // https://chir.ag/projects/name-that-color/#46d4fe
+$gray: #8c8c8c; // https://chir.ag/projects/name-that-color/#8c8c8c
+
+$transparent: transparent;
+$grey: grey;
+
+$colors: "black", "white", "mediumRedViolet", "birdFlower", "curiousBlue", "cerulean",
+  "transparent","goldenFizz","gray","lemon","grey","malibu","carrotOrange";
+
+$colorsMap: (
+  "black": $black,
+  "white": $white,
+  "mediumRedViolet": $mediumRedViolet,
+  "birdFlower": $birdFlower,
+  "curiousBlue": $curiousBlue,
+  "cerulean": $cerulean,
+  "transparent": $transparent,
+  "goldenFizz": $goldenFizz,
+  "gray": $gray,
+  "lemon": $lemon,
+  "grey": $grey,
+  "malibu": $malibu,
+  "carrotOrange": $carrotOrange,
+);

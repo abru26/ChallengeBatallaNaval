@@ -1,0 +1,26 @@
+.Matriz {
+  max-width: 50vw;
+  margin: auto;
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+    ". . . . . . . ."
+    ". . . . . . . ."
+    ". . . . . . . ."
+    ". . . . . . . ."
+    ". . . . . . . ."
+    ". . . . . . . ."
+    ". . . . . . . ."
+    ". . . . . . . ."; 
+}
+
+.Tile {
+  aspect-ratio: 1 / 1;
+  border: 1px solid rgb(251, 122, 62);
+  &.checked {
+    background-image: radial-gradient(circle at 43.84% -20.44%, #cfad33 0, #d7a42e 6.25%, #df9b2b 12.5%, #e6902a 18.75%, #eb832b 25%, #ef762e 31.25%, #f16631 37.5%, #f35336 43.75%, #f23c3c 50%, #f01943 56.25%, #ed004c 62.5%, #e90056 68.75%, #e40062 75%, #dc006f 81.25%, #d3007d 87.5%, #c8008c 93.75%, #b9009c 100%);
+  }
+  cursor: pointer;
+}
